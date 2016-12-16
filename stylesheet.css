@@ -1,0 +1,34 @@
+* { margin: 0; padding: 0; }
+
+html,body{
+  background: url(Background1.jpg) repeat-y center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+  font-family: "Times New Roman", Times, serif;
+}
+
+#Introduction { max-width: 1200px; margin: 20px auto; margin-bottom: 10px; padding: 10px; border: 4px solid blue;
+  background: url(Background2.jpg); background-size: 120%; -moz-box-shadow: 0 0 40px blue;
+  -webkit-box-shadow: 0 0 40px blue; box-shadow: 0 0 40px blue; overflow: hidden;}
+
+div.containName { float: center; width: 60%; margin: 0 auto; align-content: center; }
+h1 { display: block; font: 50px ; margin: 0px 0 10px 0; text-align: center; }
+img.selfie { display: block; margin: 0px auto; border: 5px solid #00FFFF; }
+h2 { font-size : 150%; font-weight: bold; margin-top: 50px; margin-left: 0px; }
+
+div.Contact { display: block; margin-left: 50px; width: 50%; border: 5px solid blue; padding: 10px}
+
+#Fun_Facts { max-width: 1200px; margin: 100px auto; margin-bottom: 50px; padding: 10px; border: 4px solid blue;
+  background: url(Background2.jpg); background-size: 100%; -moz-box-shadow: 0 0 50px blue;
+  -webkit-box-shadow: 0 0 50px blue; box-shadow: 0 0 50px blue; overflow: hidden;}
+
+#UBExperience { max-width: 1200px; margin: 100px auto; margin-bottom: 50px; padding: 10px; border: 4px solid blue;
+  background: url(Background2.jpg); background-size: 100%; -moz-box-shadow: 0 0 50px blue;
+  -webkit-box-shadow: 0 0 50px blue; box-shadow: 0 0 50px blue; overflow: hidden; }
+
+ul.article { font-size: 150%; margin-left: 20px}
